@@ -1,6 +1,6 @@
 # Romanji
 
-- A website to learn the romans number by onverting latin numbers to Romans and vice verca.
+- A website to learn the romans number by converting latin numbers to Romans and vice verca.
 - This is a coding challenge for OptioPay.
 
 ## How to run this code

@@ -30,17 +30,14 @@ export const sagaWithErrorHandler = (saga, errorHandler, ...args) =>
 export const generateBuilderAction = (builder, action) => {
   builder
     .addCase(action.pending, (state) => {
-      console.log("pending");
       state.isLoading = true;
       state.hasError = false;
     })
     .addCase(action.fullfilled, (state) => {
-      console.log("fullfilled");
       state.isLoading = false;
       state.hasError = false;
     })
     .addCase(action.rejected, (state, { payload }) => {
-      console.log("rejected");
       state.isLoading = false;
       state.hasError = true;
       state.errorMessage = payload;

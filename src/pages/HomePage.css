@@ -1,0 +1,36 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: stretch;
+}
+
+.page-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  border-left: 2px dotted gray;
+}
+
+.description-section {
+  justify-content: start;
+  align-items: center;
+}
+
+.discription {
+  margin: 6vh;
+  font-size: 3vh;
+  color: #8f8f8f;
+}
+
+h1 {
+  font-size: 7vh;
+  margin: 0;
+  margin-bottom: 30px;
+  color: black;
+}
+
+.vertical {
+  flex-direction: column;
+}
